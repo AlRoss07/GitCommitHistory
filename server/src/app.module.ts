@@ -2,10 +2,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { CommitHistoryModule } from './commit-history/commit-history.module'; // Import the module
+import { CommitHistoryModule } from './commit-history/commit-history.module'; 
 
 @Module({
-  imports: [CommitHistoryModule], // Add the module here
+  imports: [CommitHistoryModule], 
   controllers: [AppController],
   providers: [AppService],
 })

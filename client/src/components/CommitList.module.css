@@ -1,0 +1,40 @@
+.container {
+    margin-top: 2rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .commitItem {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 1.5rem;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease-in-out;
+  
+    &:hover {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    }
+  }
+  
+  .commitAuthor {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #3182ce;
+  }
+  
+  .commitDate {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    color: #4a5568;
+  }
+  
+  .commitMessage {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #1a202c;
+  }

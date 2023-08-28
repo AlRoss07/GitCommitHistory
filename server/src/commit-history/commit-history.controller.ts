@@ -17,8 +17,8 @@ export class CommitHistoryController {
         Authorization: `Bearer ${githubToken}`,
       };
 
-      const owner = 'AlRoss07'; // Replace with the GitHub owner's username or organization name
-      const repo = 'GitCommitHistory'; // Replace with the repository name
+      const owner = 'AlRoss07'; 
+      const repo = 'GitCommitHistory'; 
 
       const response = await axios.get(
         `https://api.github.com/repos/${owner}/${repo}/commits`,
@@ -34,7 +34,7 @@ export class CommitHistoryController {
         throw new Error('No commits found in the repository.');
       }
 
-      // Process the response data as needed
+    
       const commits: Commit[] = response.data;
       return commits;
     } catch (error) {
