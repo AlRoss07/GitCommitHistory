@@ -25,8 +25,7 @@ The frontend UI will be accessible at http://localhost:3000.
 Displays a list of commits with author, date, and commit message.
 Supports pagination to navigate through commit history.
 Provides a search bar to filter commits by commit message.
-Contributing
-Feel free to contribute to this project by opening issues, submitting pull requests, or providing suggestions.
+
 
 ## License
 This project is licensed under the MIT License.
